@@ -1,0 +1,3 @@
+@import url('../../welcome/style.css');
+@import url('../theme.css');
+.welcome h1{font-family:var(--voice-heading);font-weight:var(--voice-weight);font-size:32px;line-height:1.23}.welcome .start{color:var(--ui-on-brand)}

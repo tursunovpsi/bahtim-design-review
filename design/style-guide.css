@@ -1,0 +1,95 @@
+/* BAH-0001-R1 — approved concept 01 «Живое знакомство». */
+:root {
+  color-scheme: light;
+  --background: #FFFFFF;
+  --surface: #FFFFFF;
+  --blue: #009BE8;
+  --coral: #FF6575;
+  --primary: var(--blue);
+  --secondary: #EAF8FF;
+  --accent: var(--coral);
+  --text: #203443;
+  --muted-text: #465360;
+  --success: #287653;
+  --warning: #925322;
+  --border: #E6EDF2;
+  --shadow: 0 3px 14px rgb(32 52 67 / 6%);
+  --font-body: Arial, Helvetica, sans-serif;
+  --font-heading: 'Arial Narrow', 'Roboto Condensed', Arial, sans-serif;
+  --font-size-body: 16px;
+  --font-size-heading: 30px;
+  --font-size-brand: 22px;
+  --line-height-body: 1.36;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-7: 32px;
+  --radius: 24px;
+  --radius-photo: 28px;
+  --radius-button: 18px;
+  --button-height: 56px;
+  --touch-target: 48px;
+  --screen-max: 430px;
+}
+:root[data-theme='male'] {
+  --primary: var(--blue);
+  --secondary: #EAF8FF;
+  --accent: var(--coral);
+}
+:root[data-theme='female'] {
+  --primary: var(--coral);
+  --secondary: #FFF1F2;
+  --accent: var(--blue);
+}
+
+/* BAH-0013 v2.0 — proposal based on concept A. Scoped: Welcome is unchanged. */
+:root[data-design='bah0013'] {
+  --ui-font: 'Segoe UI', Arial, sans-serif;
+  --ui-ink: #203443;
+  --ui-muted: #586975;
+  --ui-white: #FFFFFF;
+  --ui-soft: #F5F8FA;
+  --ui-border: #DFE7ED;
+  --ui-primary: #009BE8;
+  --ui-tint: #EAF8FF;
+  --ui-accent: #FF6575;
+  --ui-on-brand: #102C3B;
+  --ui-danger: #A2273A;
+  --ui-danger-tint: #FFF1F2;
+  --ui-success: #237250;
+  --ui-success-tint: #EDF9F2;
+  --ui-test: #5746A0;
+  --ui-test-tint: #F4F1FF;
+  --ui-body: 15px;
+  --ui-small: 13px;
+  --ui-title: 29px;
+  --ui-heading: 19px;
+  --ui-leading: 1.5;
+  --ui-space-1: 4px;
+  --ui-space-2: 8px;
+  --ui-space-3: 12px;
+  --ui-space-4: 16px;
+  --ui-space-5: 20px;
+  --ui-space-6: 24px;
+  --ui-space-7: 32px;
+  --ui-radius-sm: 12px;
+  --ui-radius: 16px;
+  --ui-radius-lg: 24px;
+  --ui-touch: 48px;
+  --ui-button: 54px;
+  --ui-max: 430px;
+  --tg-safe-area-inset-top: 0px;
+  --tg-safe-area-inset-bottom: 0px;
+  --tg-content-safe-area-inset-top: 0px;
+  --tg-content-safe-area-inset-bottom: 0px;
+  --tg-safe-area-inset-left: 0px;
+  --tg-safe-area-inset-right: 0px;
+}
+:root[data-design='bah0013'][data-theme='female'] {
+  --ui-primary: #FF6575;
+  --ui-tint: #FFF1F2;
+  --ui-accent: #009BE8;
+}
