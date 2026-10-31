@@ -1,0 +1,3 @@
+/* R2 adds only inline ordinal labels. All R1 colour, type and card tokens are inherited. */
+.bah-item-number{font:inherit;color:inherit;font-variant-numeric:tabular-nums;white-space:nowrap}
+[data-bah-number-label]{min-width:0}
